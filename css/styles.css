@@ -1,0 +1,79 @@
+body{
+  background-color: hsl(0, 0%, 95%);
+}
+
+h1{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  line-height: 3;
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  line-height: 2;
+}
+
+#cars{
+  margin: 5% 15%;
+
+}
+
+/* Center Grid */
+
+.vehicle{
+  padding: 50px 50px;
+}
+
+.sedan{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: .5rem 0 0 .5rem;
+}
+
+.suv{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 .5rem .5rem 0;
+}
+
+.btn{
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  position: relative;
+  margin-top: 30%;
+}
+
+.sedan-btn{
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-btn{
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-btn{
+  color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 767px){
+  .sedan{
+    border-radius: .5rem .5rem 0 0;
+  }
+
+  .luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 .5rem .5rem;
+  }
+
+  .btn{
+    margin-top: 15%;
+  }
+}
